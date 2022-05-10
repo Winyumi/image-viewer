@@ -20,7 +20,7 @@
   images.forEach(el => {
     el.addEventListener('click', e => {
       e.preventDefault();
-      viewImage(el.href, el.querySelector('img').alt);
+      viewImage(el.href, el.querySelector('img')?.alt);
     });
   });
 
