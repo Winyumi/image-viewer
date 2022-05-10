@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+#gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#gallery ul li {
+  margin: 0.5rem;
+}
+#gallery ul li a:hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px teal;
+  position: relative;
+  z-index: 5;
+}
+#gallery a,
+#gallery img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+}
