@@ -9,13 +9,13 @@ Live Demo: https://winyumi.github.io/image-viewer/
 
 ## Usage
 
-1. Add the `imageviewer.js` and `imageviewer.css` files to your assets folder.
+1. Download the `imageviewer.js` and `imageviewer.css` files to your website folder.
 
-2. Add the following code to the `<head>` of your HTML file. Adjust relative paths accordingly.
+2. Add the following code to the `<head>` of your HTML file. Adjust relative paths accordingly if necessary.
 
     ```html
-    <link href="/assets/css/imageviewer.css" rel="stylesheet">
-    <script src="/assets/js/imageviewer.js" async defer></script>
+    <link href="imageviewer.css" rel="stylesheet">
+    <script src="imageviewer.js" async defer></script>
     ```
 
 3. Add the `viewer` class to each desired `<a>` tag that links to an image.
@@ -34,7 +34,7 @@ Live Demo: https://winyumi.github.io/image-viewer/
 
 This is compatible with any modern browser.
 
-Inline styles are not used so this should work on websites with CSP without needing `style-src: unsafe-inline`. (Not tested)
+Inline styles are not used so this *should* work on websites with CSP without needing the `style-src: unsafe-inline` directive. (Not tested)
 
 
 ## Credits
