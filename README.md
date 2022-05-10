@@ -33,3 +33,10 @@ Live Demo: https://winyumi.github.io/image-viewer/
 ## Compatibility
 
 This is compatible with any modern browser.
+
+Inline styles are not used so this should work on websites with CSP without needing `style-src: unsafe-inline`. (Not tested)
+
+
+## Credits
+
+Example images from [Unsplash](https://unsplash.com/).
